@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Longitud de Arco y Curvatura 3D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Cálculo de Longitud de Arco y Curvatura en 3D</h1>
+<div id="form-container">
+    <input type="text" id="parametricFunction" placeholder="Ingresa la función (x(t), y(t), z(t))" />
+    <input type="number" id="tStart" placeholder="Inicio de t" />
+    <input type="number" id="tEnd" placeholder="Fin de t" />
+    <button onclick="calculate()">Calcular</button>
+</div>
+
+<div id="output"></div>
+<div id="graphContainer"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
